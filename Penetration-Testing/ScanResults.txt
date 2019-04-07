@@ -1,0 +1,10 @@
+# Nmap 7.70 scan initiated Sat Apr  6 20:48:49 2019 as: nmap -sT -p 80 -oG ScanResults.txt 172.16.0.1-255
+Host: 172.16.0.1 (www.routerlogin.com)	Status: Up
+Host: 172.16.0.1 (www.routerlogin.com)	Ports: 80/open/tcp//http///
+Host: 172.16.0.12 ()	Status: Up
+Host: 172.16.0.12 ()	Ports: 80/closed/tcp//http///
+Host: 172.16.0.18 ()	Status: Up
+Host: 172.16.0.18 ()	Ports: 80/closed/tcp//http///
+Host: 172.16.0.20 ()	Status: Up
+Host: 172.16.0.20 ()	Ports: 80/closed/tcp//http///
+# Nmap done at Sat Apr  6 20:49:05 2019 -- 255 IP addresses (4 hosts up) scanned in 16.15 seconds
