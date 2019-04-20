@@ -1,10 +1,12 @@
 #!/bin/bash
 
-HOST_NAME=${hostname}
+echo "<-- Basic Conditional -->"
 
-if ["$HOST_NAME" = ${hostname}]
+HOST_NAME=$(hostname)
+
+if [ "$HOST_NAME" = $(hostname) ]
 then
-	echo "Hostname is set"
+	echo "[*] Hostname is $HOST_NAME"
 fi
 
 
